@@ -1,0 +1,41 @@
+.ulButtonContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+.page {
+  background-color: rgb(139, 139, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.AppItemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.iconSearch {
+  height: 30px;
+  width: 30px;
+}
+.searchInputContainer {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 8px;
+}
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(44, 29, 29);
+}
